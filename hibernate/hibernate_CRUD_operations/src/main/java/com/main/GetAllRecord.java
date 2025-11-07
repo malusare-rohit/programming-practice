@@ -11,6 +11,9 @@ import org.hibernate.query.Query;
 import com.entity.Student;
 
 public class GetAllRecord {
+	
+	// here we get all records from the database using HQL
+	
 	public static void main(String[] args) {
 		Configuration cfg = new Configuration();
 		cfg.configure("hibernate.cfg.xml");
