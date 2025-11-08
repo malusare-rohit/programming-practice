@@ -18,6 +18,9 @@ public class UpdateData {
 		Session ss = sf.openSession();
 		Transaction tr = ss.beginTransaction();
 		
+		// Update SQL query : update student set name="rohit" where id=2;
+		// HQL query : update Student set name =: myname where id =: myid;
+		
 		int id = 2;
 		
 		Student s = ss.get(Student.class, id);
