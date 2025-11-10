@@ -19,7 +19,7 @@ public class DeleteData {
 		Session ss = sf.openSession();
 		Transaction tr = ss.beginTransaction();
 		
-		int id = 1;
+		int id = 3;
 		
 		Student s = ss.get(Student.class, id);
 		
